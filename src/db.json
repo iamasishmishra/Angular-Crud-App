@@ -1,0 +1,46 @@
+{
+  "fruits": [
+    {
+      "id": "2",
+      "name": "Lichy",
+      "quantity": 20,
+      "price": 300
+    },
+    {
+      "id": "3",
+      "name": "Orange",
+      "quantity": 30,
+      "price": 120
+    },
+    {
+      "id": "4",
+      "name": "Banana",
+      "quantity": 10,
+      "price": 50
+    },
+    {
+      "id": "7b12",
+      "name": "Mango",
+      "quantity": 5,
+      "price": 140
+    },
+    {
+      "id": "0",
+      "name": "Cocunot",
+      "quantity": 30,
+      "price": 200
+    },
+    {
+      "id": 0,
+      "name": "Burger",
+      "quantity": 3,
+      "price": 280
+    },
+    {
+      "id": "1",
+      "name": "tds",
+      "quantity": 15,
+      "price": 107
+    }
+  ]
+}

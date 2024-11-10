@@ -1,0 +1,14 @@
+<div class="form">
+    <form>
+        <label for="name">Fruit Name: </label>
+        <input id="name" type="text" placeholder="Name" [(ngModel)]="formdata.name" name="name"> 
+
+        <label for="quantity">Quantity: </label>
+        <input id="quantity" type="number" placeholder="Quantity" [(ngModel)]="formdata.quantity" name="quantity"> 
+
+        <label for="price">Price: </label>
+        <input id="price" type="number" placeholder="Price" [(ngModel)]="formdata.price" name="price"> 
+
+        <button type="button" (click)="create()">Create Fruit</button>
+    </form>
+</div>

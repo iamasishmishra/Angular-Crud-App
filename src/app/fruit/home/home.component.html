@@ -1,0 +1,16 @@
+<div>
+    <div class="head">
+        <button routerLink="create">Add New Fruit</button>
+        <h1 style="color: Green;">All Fruits</h1>
+    </div>
+
+    <div class="container">
+        <div class="fruitItem" *ngFor="let item of fruits">
+            <h3>Name: {{item.name}}</h3>
+            <p>Quantity: {{item.quantity}}</p>
+            <p>Price: {{item.price}}</p>
+            <button (click)="edit(item)">Edit</button>
+            <button style="margin-left: 1px;" (click)="delete(item.id)">Delete</button>
+        </div>
+    </div>
+</div>

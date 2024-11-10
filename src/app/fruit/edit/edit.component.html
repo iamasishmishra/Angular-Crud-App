@@ -1,0 +1,14 @@
+<div class="form">
+    <form>
+        <label for="name">Fruit Name: </label>
+        <input id="name" type="text" [(ngModel)]="formdata.name" name="name">
+
+        <label for="quantity">Quantity: </label>
+        <input id="quantity" type="number" [(ngModel)]="formdata.quantity" name="quantity">
+
+        <label for="price">Price: </label>
+        <input id="price" type="number" [(ngModel)]="formdata.price" name="price">
+
+        <button type="button" (click)="update()">Update Fruit</button>
+    </form>
+</div>
